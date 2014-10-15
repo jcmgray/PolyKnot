@@ -3,7 +3,7 @@ PolyKnot
 
 A C-library to heuristically identify and analyse 'knots' in open chains such as
 polymers. On receipt of the positions of a beads along the chain or string the
-function can find: crossing number, knot size and knot position.
+function finds: crossing number, knot size and knot position.
 
 Usage
 -----
