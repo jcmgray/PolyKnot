@@ -1,13 +1,15 @@
 PolyKnot
 ========
 
-A C-library to heuristically identify and analyse 'knots' in open chains such as polymers.
+A C-library to heuristically identify and analyse 'knots' in open chains such as
+polymers. On receipt of the positions of a beads along the chain or string the
+function can find: crossing number, knot size and knot position.
 
 Usage
 -----
 
 * Create knot struct.
-* Vector inputted needs to describe the positions of the 'joints' or 'beads' in the 
+* Vector inputted needs to describe the positions of the 'joints' or 'beads' in the
 chain with length 3N like so: **r** = ( x1, y1, z1, x2, y2, z2 ... xN, yN, zN )
 * Run analysis on knot object and chosen vector.
 * Clear knot struct.
